@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1216px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 112px;
+    padding-right: 112px;
+}
+
+/* Main page && Desert section */
+
+.cart-ul-text{
+    list-style: none;
+}
+
+
+.desert-title-1{
+    color: black;
+    font-family: "Red Hat Text";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    padding-top: 88px;
+}
+
+.desert-cart{
+    width: 250px;
+    height: 347px;
+    padding-top: 32px;
+}
+
+.cart-add-btn{
+    width: 160px;
+    max-width: 160px;
+    border-radius: 999px;
+    border: 1px solid #AD8A85;
+    background: white;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -28px;
+    margin-left: 45px;
+    position: absolute;
+    z-index: 100;
+}
+
+.cart-add-btn{
+    cursor: pointer;
+}
+.cart-img{
+    width: 250px;
+    height: 240px;
+    position: relative;
+    z-index: 1;
+}
+
+.cart-title{
+    color: #87635A;
+    font-family: "Red Hat Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 50%;
+}
+
+.cart-text{
+    color: #260F08;
+    font-family: "Red Hat Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cart-img-price{
+    color: #C73B0F;
+    font-family: "Red Hat Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.cart-ul-text{
+    margin-top: 16px;
+    row-gap: 4px;
+}
+
+.desert-cart-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* Main page && Desert section */
+
+
+
+
+
+
+
+
+
+
+
